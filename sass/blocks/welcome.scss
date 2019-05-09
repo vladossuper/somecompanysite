@@ -1,0 +1,58 @@
+.welcome {
+  height: 625px;
+  background-image: url(../img/1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative; 
+}
+
+.welcome__title {
+  position: absolute;
+  left: 50%;
+  top: 340px;
+  text-transform: uppercase;
+  font-family: "Baskerville";
+  color: #fcf9f7; 
+}
+
+.first-letter {
+  font-size: 72px; 
+}
+
+.second-letter {
+  font-size: 48px;
+  font-family: "Athelas";
+  color: #d7794a; 
+}
+
+@media (min-width: 421px) and (max-width: 1024px) {
+  /*welcome*/
+  .welcome {
+    height: 625px;
+    background-image: url(../img/1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  .first-letter {
+    font-size: 45px;
+  }
+  .second-letter {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 420px) {
+  .welcome__title {
+      position: absolute;
+      left: 60%;
+      top: 360px;
+    }
+    .first-letter {
+      font-size: 20px;
+    }
+    .second-letter {
+      font-size: 12px;
+    }
+
+}

@@ -1,0 +1,129 @@
+.about {
+	background-image: url(../img/about-us-cover.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: flex;
+	width: 92.7%;
+	justify-content: space-between;
+	padding: 356px 3.65% 320px 3.65%;
+	
+}
+
+.about_image {
+	width: 46.8%;
+	min-height: 366px;
+	background-image: url(../img/cyber6-900px.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.about__block {
+	background-color: #fff;
+	width: 44%;
+	border: 1px solid #ccc;
+}
+.about__block-title {
+	text-align: center;
+	margin-top: 53px;
+	font-size: 40px;
+  	font-family: "Athelas";
+  	color: rgb(0, 0, 0);
+  	text-transform: uppercase;
+}
+
+.about__block-text {
+	margin-top: 30px;
+	text-align: center;
+	font-size: 16px;
+  	font-family: "QuattrocentoSans";
+  	color: rgb(61, 61, 61);
+}
+
+.about__block-list {
+	position: relative;
+	display: flex;
+	margin: 73px 5% 0 5%;
+	width: 90%;
+	list-style: none;
+	justify-content: space-between;
+	margin-bottom: 40px;
+}
+
+.about-img-1 {
+	 width: 61%;
+}
+
+.about-img-2 {
+	width: 80%;
+}
+
+.about-img-3 {
+	width: 68%;
+}
+
+.friendly-team {
+	width: 30%;
+}
+
+.involved {
+	width: 23%;
+}
+
+.assistance {
+	width: 27%;
+}
+
+.about__block-item-text {
+	text-align: center;
+	font-size: 15px;
+  	font-family: "Myriad Pro";
+  	color: rgb(0, 0, 0);
+  	text-transform: uppercase;
+  	margin-top: 20px;
+  	border: 1px solid #000;
+  	padding: 10px 20px;
+  	
+}
+
+.about__block-item-img {
+	margin-left: 17%;
+}
+
+@media (min-width: 421px) and (max-width: 1024px) {
+	.about_image {
+		display: none;
+	}
+	.about__block-item-text {
+  		border: none;
+	}
+	.about__block {
+		background-color: #fff;
+		width: 100%;
+		border: 1px solid #ccc;
+	}
+}
+
+@media (max-width: 420px) {
+	.about {
+		padding: 50px 3.65% 50px 3.65%;
+	}
+
+	.about_image {
+		display: none
+	}
+
+	.about__block {
+		background-color: #fff;
+		width: 95%;
+		box-shadow: 0 0 20px rgba(0,0,0,0.5);
+	}
+	.about__block-title {
+		font-size: 20px;
+	}
+
+	.about__block-item-text {
+		font-size: 10px;
+	  	border: none;
+	  	padding: 5px 20px;
+	}
+}

@@ -1,0 +1,46 @@
+.header__nav {
+  background-color: rgba(0, 0, 0, 0.25); }
+
+.header__nav-list {
+  margin-left: 3%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 42%;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style: none; }
+
+.header__nav-list-item {
+  padding: 29px 2%;
+  font-size: 20px;
+  font-family: "Myriad Pro";
+  text-transform: uppercase; }
+  .header__nav-list-item:hover {
+    background-color: rgba(0, 179, 240, 0.09);
+    color: #302f2f;
+    cursor: pointer;
+    -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+            box-shadow: 0 0 3px rgba(0, 0, 0, 0.5); }
+
+.header__nav-list-item a {
+  text-decoration: none;
+  color: #fff; }
+
+@media (max-width: 420px) {
+  .header__nav-list {
+    margin-left: 3%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    list-style: none; } }

@@ -1,0 +1,60 @@
+.statistics {
+  position: relative; }
+
+.statistics__img {
+  margin-top: 320px;
+  height: 344px;
+  background-image: url(../img/statictics.jpg);
+  -webkit-background-size: cover;
+          background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-filter: contrast(0.5) brightness(0.8);
+          filter: contrast(0.5) brightness(0.8); }
+
+.statistics__list {
+  position: absolute;
+  width: 66%;
+  list-style: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  left: 17%;
+  bottom: 116px;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
+.item-first {
+  width: 12%; }
+
+.item-second {
+  width: 14%; }
+
+.item-third {
+  width: 8%; }
+
+.item-forth {
+  width: 5.2%; }
+
+.statistics-number {
+  font-size: 60px;
+  font-family: "Vani";
+  color: #995437;
+  font-weight: bold; }
+
+.statistics-text {
+  font-size: 13px;
+  font-family: "Myriad Pro";
+  color: white;
+  text-transform: uppercase; }
+
+@media (max-width: 420px) {
+  .statistics__img {
+    margin-top: 320px;
+    height: 250px; }
+  .statistics-number {
+    font-size: 20px; }
+  .statistics-text {
+    font-size: 10px; } }

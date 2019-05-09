@@ -1,0 +1,33 @@
+.gallery__title {
+  text-align: center;
+  margin-top: 185px;
+  font-size: 72px;
+  font-family: "Athelas";
+  color: #a95e39;
+  text-transform: uppercase;
+  font-weight: 200; }
+
+.gallery__text {
+  text-align: center;
+  margin-top: 85px;
+  font-size: 25px; }
+
+.slider {
+  width: 1200px;
+  margin: 170px auto 0 auto; }
+
+@media (min-width: 421px) and (max-width: 1024px) {
+  .slider {
+    width: 768px;
+    margin: 170px auto 0 auto; } }
+
+@media (max-width: 420px) {
+  .gallery__title {
+    margin-top: 50px;
+    font-size: 36px; }
+  .gallery__text {
+    margin-top: 85px;
+    font-size: 25px; }
+  .slider {
+    width: 320px;
+    margin: 70px auto 0 auto; } }

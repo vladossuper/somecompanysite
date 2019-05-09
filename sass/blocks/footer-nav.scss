@@ -1,0 +1,145 @@
+.footer-nav {
+	padding: 60px 0;
+	background-color: #065535;
+	/*margin: 0 8.1% 0 5.7%;*/
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	border-bottom: 1px solid #fff;
+}
+
+.content-nav {
+	width: 7.5%;
+
+}
+
+.information-nav {
+	width: 12.6%;
+}
+
+.legal-nav {
+	width: 9.3%;
+}
+
+.help-nav {
+	width: 12.5%;
+}
+
+.footer-contacts {
+	width: 10%;
+}
+
+.content-list {
+	list-style: none;
+}
+
+.content-item {
+	font-size: 16px;
+	font-family: "Myriad Pro";
+}
+
+.content-item a {
+	text-decoration: none;
+	color: rgb(210, 211, 215);
+
+	&:hover {
+		color: #8b3a62;
+	}
+
+	&:focus {
+		color: #8b3a62;
+	}
+}
+
+
+.content-title {
+	text-transform: uppercase;
+	margin-bottom: 45px;
+	font-size: 18px;
+	font-weight: bold;
+	font-family: "Myriad Pro";
+  	color: rgb(210, 211, 215);
+}
+
+.footer-contacts-list {
+	list-style: none;
+}
+
+.footer-contacts-item {
+	margin-top: 10px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer-contacts-item img {
+	padding-right: 5px;
+}
+
+.footer-contacts-item a {
+	text-decoration: none;
+	color: rgb(210, 211, 215);
+
+	&:hover {
+		color: #8b3a62;
+	}
+
+	&:focus {
+		color: #8b3a62;
+	}
+}
+
+@media (max-width: 420px) {
+	.footer-nav {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		border-bottom: 1px solid #fff;
+	}
+
+	.content-nav {
+		width: 100%;
+		text-align: center;
+
+	}
+
+	.information-nav {
+		width: 100%;
+		text-align: center;
+	}
+
+	.legal-nav {
+		width: 100%;
+		text-align: center;
+	}
+
+	.help-nav {
+		width: 100%;
+		text-align: center;
+	}
+
+	.footer-contacts {
+		width: 100%;
+		text-align: center;
+	}
+
+	.content-title {
+		margin-bottom: 10px;
+		margin-top: 15px;
+	}
+
+	.footer-contacts-list {
+		margin-top: 15px;
+		list-style: none;
+	}
+
+	.footer-contacts-item {
+		margin-top: 10px;
+		display: flex;
+		flex-direction: column;
+
+	}
+
+	.footer-contacts-item img {
+		display: none;
+	}
+}

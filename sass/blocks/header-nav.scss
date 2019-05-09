@@ -1,0 +1,41 @@
+.header__nav {
+	background-color: rgba(0, 0, 0, 0.25);
+	
+}
+
+.header__nav-list {
+	margin-left: 3%;
+	display: flex;
+	width: 42%;
+	justify-content: space-between;
+	list-style: none;
+}
+
+.header__nav-list-item {
+	padding: 29px 2%;
+	font-size: 20px;
+	font-family: "Myriad Pro";
+	text-transform: uppercase;
+
+	&:hover {
+		background-color: rgba(0, 179, 240, 0.09);
+		color: rgb(48, 47, 47);
+		cursor: pointer;
+		box-shadow: 0 0 3px rgba(0,0,0,0.5)
+	}
+}
+
+.header__nav-list-item a {
+	text-decoration: none;
+	color: #fff;
+}
+
+@media (max-width: 420px) {
+	.header__nav-list {
+		margin-left: 3%;
+		display: flex;
+		width: 100%;
+		flex-direction: column;
+		list-style: none;
+	}
+}

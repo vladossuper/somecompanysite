@@ -1,0 +1,64 @@
+.statistics {
+	position: relative;
+}
+
+.statistics__img {
+	margin-top: 320px;
+	height: 344px;
+	background-image: url(../img/statictics.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	filter: contrast(.5) brightness(.8);
+}
+
+.statistics__list {
+	position: absolute;
+	width: 66%;
+	list-style: none;
+	display: flex;
+	left: 17%;
+	bottom: 116px;
+	justify-content: space-between;
+}
+
+.item-first {
+	width: 12%;
+}
+.item-second {
+	width: 14%;
+}
+.item-third {
+	width: 8%;
+}
+.item-forth {
+	width: 5.2%;
+}
+
+.statistics-number {
+	font-size: 60px;
+  	font-family: "Vani";
+  	color: rgb(153, 84, 55);
+  	font-weight: bold;
+}
+
+.statistics-text {
+	font-size: 13px;
+  	font-family: "Myriad Pro";
+  	color: rgb(255, 255, 255);
+  	text-transform: uppercase;
+}
+
+@media (max-width: 420px) {
+	.statistics__img {
+		margin-top: 320px;
+		height: 250px;
+	}
+
+	.statistics-number {
+		font-size: 20px;
+	}
+
+	.statistics-text {
+		font-size: 10px;
+	}
+}

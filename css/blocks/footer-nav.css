@@ -1,0 +1,124 @@
+.footer-nav {
+  padding: 60px 0;
+  background-color: #065535;
+  /*margin: 0 8.1% 0 5.7%;*/
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+  width: 100%;
+  border-bottom: 1px solid #fff; }
+
+.content-nav {
+  width: 7.5%; }
+
+.information-nav {
+  width: 12.6%; }
+
+.legal-nav {
+  width: 9.3%; }
+
+.help-nav {
+  width: 12.5%; }
+
+.footer-contacts {
+  width: 10%; }
+
+.content-list {
+  list-style: none; }
+
+.content-item {
+  font-size: 16px;
+  font-family: "Myriad Pro"; }
+
+.content-item a {
+  text-decoration: none;
+  color: #d2d3d7; }
+  .content-item a:hover {
+    color: #8b3a62; }
+  .content-item a:focus {
+    color: #8b3a62; }
+
+.content-title {
+  text-transform: uppercase;
+  margin-bottom: 45px;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: "Myriad Pro";
+  color: #d2d3d7; }
+
+.footer-contacts-list {
+  list-style: none; }
+
+.footer-contacts-item {
+  margin-top: 10px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
+.footer-contacts-item img {
+  padding-right: 5px; }
+
+.footer-contacts-item a {
+  text-decoration: none;
+  color: #d2d3d7; }
+  .footer-contacts-item a:hover {
+    color: #8b3a62; }
+  .footer-contacts-item a:focus {
+    color: #8b3a62; }
+
+@media (max-width: 420px) {
+  .footer-nav {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+    border-bottom: 1px solid #fff; }
+  .content-nav {
+    width: 100%;
+    text-align: center; }
+  .information-nav {
+    width: 100%;
+    text-align: center; }
+  .legal-nav {
+    width: 100%;
+    text-align: center; }
+  .help-nav {
+    width: 100%;
+    text-align: center; }
+  .footer-contacts {
+    width: 100%;
+    text-align: center; }
+  .content-title {
+    margin-bottom: 10px;
+    margin-top: 15px; }
+  .footer-contacts-list {
+    margin-top: 15px;
+    list-style: none; }
+  .footer-contacts-item {
+    margin-top: 10px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+  .footer-contacts-item img {
+    display: none; } }

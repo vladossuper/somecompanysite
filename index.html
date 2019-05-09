@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>My Site</title>
+	<link rel="stylesheet" type="text/css" href="slick/slick.css">
+	<link rel="stylesheet" type="text/css" href="slick/slick-theme.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	<header class="header">
+		<div class="header__logo">
+			<h1 class="header__logo-name">YourCompanyName</h1>
+		</div>
+
+		<nav class="header__nav nav" id="menu">
+			<ul class="header__nav-list">
+				<li class="header__nav-list-item"><a href="index.html">Home</a></li>
+				<li class="header__nav-list-item"><a href="#pt1">About</a></li>
+				<li class="header__nav-list-item"><a href="#pt2">Services</a></li>
+				<li class="header__nav-list-item"><a href="#pt3">Leaders</a></li>
+				<li class="header__nav-list-item"><a href="#pt4">Portfilio</a></li>
+				<li class="header__nav-list-item"><a href="#pt5">Contacts</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<main>
+		<section class="welcome">
+
+			<h2 class="welcome__title"><span class="first-letter">Welcome to </span><br><span class="second-letter">yourcompanyname</span></h2>
+		</section>
+
+		<section class="our-leaders">
+			<h2 class="our-leaders__title" id="pt3">Our team leaders</h2>
+			<div class="strip"></div>
+			<p class="our-leaders__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor<br> incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nos<br>trud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis<br> aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat</p>
+
+			<ul class="our-leaders__list">
+				<li class="our-leaders__list-item">
+					<img class="our-leaders__list-item-img" src="img/kellan-lutz.jpg" alt="kellan-lutz">
+					<h3 class="our-leaders__list-item-title">Hugo Silva</h3>
+					<p class="our-leaders__list-item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
+				</li>
+
+				<li class="our-leaders__list-item">
+					<img class="our-leaders__list-item-img" src="img/kellan-lutz.jpg" alt="kellan-lutz">
+					<h3 class="our-leaders__list-item-title">Imanol Arias</h3>
+					<p class="our-leaders__list-item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
+				</li>
+
+				<li class="our-leaders__list-item">
+					<img class="our-leaders__list-item-img" src="img/kellan-lutz.jpg" alt="kellan-lutz">
+					<h3 class="our-leaders__list-item-title">Javier Bardem</h3>
+					<p class="our-leaders__list-item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
+				</li>
+			</ul>
+		</section>
+		<section class="statistics">
+			<h2 class="statistics__title hide">Statistics</h2>
+			<div class="statistics__img" id="pt2"></div>
+			<ul class="statistics__list">
+				<li class="statistics__list-item item-first"><span class="statistics-number">2500</span><br> <span class="statistics-text">happy clients</span></li>
+				<li class="statistics__list-item item-second"><span class="statistics-number">300</span> <span class="statistics-text">full notebooks</span></li>
+				<li class="statistics__list-item item-third"><span class="statistics-number">120</span> <span class="statistics-text">teammates</span></li>
+				<li class="statistics__list-item item-forth"><span class="statistics-number">30</span> <span class="statistics-text">stories</span></li>
+			</ul>
+		</section>
+
+		<div class="business-image"></div>
+
+		<section class="contacts">
+			<h2 class="contacts__title" id="pt5">Contact us</h2>
+			<p class="contacts__text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem<br> accusantium doloremque laudantium, totam rem aperiam</p>
+
+			<div class="error-window hide"> 
+				<div class="close">+</div>
+				<h4 class="error-window__title">Error!</h4>
+				<p class="error-window__text"></p>
+			</div>
+
+			<form class="contacts__form form" method="post">
+				<input class="form__name field" type="text" name="name" placeholder="Name *">
+				<select class="form__category">
+					<option selected>Category 1</option>
+					<option>Category 2</option>
+					<option>Category 3</option>
+				</select>
+				<input class="form__phone field" type="text" name="phone" placeholder="Phone *">
+				<select class="form__city">
+					<option selected>Kyiv</option>
+					<option>Kherson</option>
+					<option>Cherkassy</option>
+				</select>
+				<input class="form__email field" type="text" name="email" placeholder="E-mail *">
+				<textarea class="form__message field" placeholder="Message *"></textarea>
+				<a class="form__btn btn" id="button" href="#">Contact Us</a>
+			</form>
+
+		</section>
+
+		<section class="about">
+			
+				<div class="about_image"></div>
+
+				<div class="about__block">
+					<h3 class="about__block-title" id="pt1">About Us</h3>
+					<p class="about__block-text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem<br> accusantium doloremque laudantium, totam rem aperiam</p>
+
+					<ul class="about__block-list">
+						<li class="about__block-item friendly-team">
+							<img class="about__block-item-img about-img-1" src="img/stub.png" alt="stub">
+							
+							<div class="about__block-item-text">Friendly team</div>
+						</li>
+
+						<li class="about__block-item involved">
+							<img class="about__block-item-img about-img-2" src="img/stub.png" alt="stub">
+							
+							<div class="about__block-item-text">Involved</div>
+						</li>
+
+						<li class="about__block-item assistance">
+							<img class="about__block-item-img about-img-3" src="img/stub.png" alt="stub">
+							<div class="vertical-line"></div>	
+							<div class="about__block-item-text">24/7 Assistance</div>
+						</li>
+					</ul>
+				</div>
+		</section>
+
+		<section class="gallery">
+			<h3 class="gallery__title" id="pt4">Our gallery</h3>
+
+			<p class="gallery__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br> tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,<br> quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+			
+        	<ul class="slider">
+  				<li><img src="img/slide_02.jpg" alt="Slider 2"></li>
+  				<li><img src="img/slide_03.jpg" alt="Slider 3"></li>
+  				<li><img src="img/slide_04.jpg" alt="Slider 4"></li>
+			</ul>
+		</section>
+	</main>
+
+	<footer>
+		<section class="footer-nav">
+			<div class="content-nav footer-nav-block">
+				<h4 class="content-title">Content</h4>
+				<ul class="content-list">
+					<li class="content-item"><a href="#">Lorem ipsum</a></li>
+					<li class="content-item"><a href="#">Dolor sit</a></li>
+				</ul>
+			</div>
+
+			<div class="information-nav footer-nav-block">
+				<h4 class="content-title">Information</h4>
+				<ul class="content-list">
+					<li class="content-item"><a href="#">Lorem ipsum</a></li>
+					<li class="content-item"><a href="#">Onsectetut adipisicing</a></li>
+				</ul>
+			</div>
+
+			<div class="legal-nav footer-nav-block">
+				<h4 class="content-title">Legal</h4>
+				<ul class="content-list">
+					<li class="content-item"><a href="#">Adipisicing elit</a></li>
+					<li class="content-item"><a href="#">Sed do eiusmod</a></li>
+					<li class="content-item"><a href="#">Sed do eiusmod</a></li>
+				</ul>
+			</div>
+
+			<div class="help-nav footer-nav-block">
+				<h4 class="content-title">Help</h4>
+				<ul class="content-list">
+					<li class="content-item"><a href="#">Lorem ipsum</a></li>
+					<li class="content-item"><a href="#">Onsectetut adipisicing</a></li>
+				</ul>
+			</div>
+
+			<div class="footer-contacts">
+				<ul class="footer-contacts-list">
+					<li class="footer-contacts-item">
+						<img class="contacts-phone" src="img/phone.png" alt="contacts-phone">
+						<a href="tel:3-6000-0000-6000-000-0000">3-6000-0000-6000-000-0000</a>
+					</li>
+
+					<li class="footer-contacts-item">
+						<img class="contacts-map" src="img/map.png" alt="contacts-map">
+						<a href="#">67700, Dagenham St. England, GB</a>
+					</li>
+				</ul>
+			</div>
+		</section>
+
+		<div class="copyright">
+			<p class="copyright-text">Copyright 2019. Your companyname All rights reserved.</p>
+
+			<ul class="social-network">
+				<li class="social-network-item google"><a href="https://google.com"><img src="img/google+.png" alt="google"></a></li>
+				<li class="social-network-item twitter"><a href="https://twitter.com"><img src="img/twitter.png" alt="twitter"></a></li>
+				<li class="social-network-item instagram"><a href="https://instagram.com"><img src="img/instagram.png" alt="instagram"></a></li>
+				<li class="social-network-item facebook"><a href="https://facebook.com"><img src="img/facebook.png" alt="facebook"></a></li>
+			</ul>
+		</div>
+	</footer>
+
+	
+
+
+
+	<script src="https://code.jquery.com/jquery-3.0.0.js"></script>
+	<script src="https://code.jquery.com/jquery-migrate-3.0.1.js"></script>
+	<script src="slick/slick.min.js"></script>
+
+
+
+	<script src="js/slider.js"></script>
+	<script src="js/validation.js"></script>
+
+	<script>
+		$(document).ready(function(){
+    		$("#menu").on("click","a", function (event) {
+        	event.preventDefault();
+        	var id  = $(this).attr('href'),
+           		top = $(id).offset().top;
+        		$('body,html').animate({scrollTop: top}, 1000);
+    	});
+});
+	</script>
+</body>
+</html>

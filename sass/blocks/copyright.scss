@@ -1,0 +1,90 @@
+.copyright {
+	height: 90px;
+	display: flex;
+	justify-content: space-around;
+	background-color: #000;
+
+}
+
+.copyright-text {
+	margin-top: 33px;
+	font-size: 16px;
+  	font-family: "Myriad Pro";
+  	color: rgb(205, 203, 203);
+}
+
+.social-network {
+	margin-top: 33px;
+	display: flex;
+	list-style: none;
+	width: 12%;
+	justify-content: space-between;
+}
+
+.social-network-item {
+	height: 26px;
+	/*width: 32px;*/
+	text-align: center;
+	border: 1px solid #fff;
+
+}
+
+.google {
+	padding: 4px 6px;
+}
+
+.twitter {
+	padding: 4px 7px;
+}
+
+.instagram {
+	padding: 4px;
+}
+
+.facebook {
+	padding: 4px 6px;
+}
+
+.contacts-phone {
+	width: 19px;
+	height: 19px;
+}
+
+.contacts-map {
+	width: 14px;
+	height: 21px;
+}
+
+@media (max-width: 420px) {
+	.copyright {
+		/*height: 90px;*/
+		display: flex;
+		flex-direction: column;
+		background-color: #000;
+
+	}
+
+	.copyright-text {
+		margin-top: 15px;
+		font-size: 16px;
+	  	font-family: "Myriad Pro";
+	  	color: rgb(205, 203, 203);
+	  	text-align: center;
+	}
+
+	.social-network {
+		margin-top: 15px;
+		display: flex;
+		list-style: none;
+		width: 50%;
+		justify-content: space-between;
+		margin: 0 auto;
+	}
+
+	.social-network-item {
+		height: 26px;
+		/*width: 32px;*/
+		text-align: center;
+		border: 1px solid #fff;
+	}
+}

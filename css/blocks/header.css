@@ -1,0 +1,13 @@
+.header {
+  width: 100%; }
+
+.header__logo {
+  padding-top: 47px;
+  padding-bottom: 47px;
+  margin-left: 3%; }
+
+.header__logo h1 {
+  color: rgba(215, 121, 74, 0.71);
+  font-size: 25px;
+  font-family: "Myriad Pro";
+  text-transform: uppercase; }
